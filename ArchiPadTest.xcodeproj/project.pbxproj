@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9390E9A2A39F74000E5300B /* ArchiPadTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390E992A39F74000E5300B /* ArchiPadTestApp.swift */; };
+		D9390E9C2A39F74000E5300B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390E9B2A39F74000E5300B /* Persistence.swift */; };
+		D9390E9F2A39F74000E5300B /* ArchiPadTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9390E9D2A39F74000E5300B /* ArchiPadTest.xcdatamodeld */; };
+		D9390EA12A39F74000E5300B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EA02A39F74000E5300B /* ContentView.swift */; };
+		D9390EA32A39F74000E5300B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9390EA22A39F74000E5300B /* Assets.xcassets */; };
+		D9390EA72A39F74000E5300B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9390EA62A39F74000E5300B /* Preview Assets.xcassets */; };
+		D9390EB12A39F74100E5300B /* ArchiPadTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EB02A39F74100E5300B /* ArchiPadTestTests.swift */; };
+		D9390EBB2A39F74100E5300B /* ArchiPadTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EBA2A39F74100E5300B /* ArchiPadTestUITests.swift */; };
+		D9390EBD2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EBC2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9390EAD2A39F74000E5300B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9390E8E2A39F74000E5300B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9390E952A39F74000E5300B;
+			remoteInfo = ArchiPadTest;
+		};
+		D9390EB72A39F74100E5300B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9390E8E2A39F74000E5300B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9390E952A39F74000E5300B;
+			remoteInfo = ArchiPadTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9390E962A39F74000E5300B /* ArchiPadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiPadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9390E992A39F74000E5300B /* ArchiPadTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiPadTestApp.swift; sourceTree = "<group>"; };
+		D9390E9B2A39F74000E5300B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D9390E9E2A39F74000E5300B /* ArchiPadTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArchiPadTest.xcdatamodel; sourceTree = "<group>"; };
+		D9390EA02A39F74000E5300B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9390EA22A39F74000E5300B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9390EA42A39F74000E5300B /* ArchiPadTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArchiPadTest.entitlements; sourceTree = "<group>"; };
+		D9390EA62A39F74000E5300B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9390EAC2A39F74000E5300B /* ArchiPadTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiPadTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9390EB02A39F74100E5300B /* ArchiPadTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiPadTestTests.swift; sourceTree = "<group>"; };
+		D9390EB62A39F74100E5300B /* ArchiPadTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiPadTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9390EBA2A39F74100E5300B /* ArchiPadTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiPadTestUITests.swift; sourceTree = "<group>"; };
+		D9390EBC2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiPadTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9390E932A39F74000E5300B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9390EA92A39F74000E5300B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9390EB32A39F74100E5300B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9390E8D2A39F74000E5300B = {
+			isa = PBXGroup;
+			children = (
+				D9390E982A39F74000E5300B /* ArchiPadTest */,
+				D9390EAF2A39F74100E5300B /* ArchiPadTestTests */,
+				D9390EB92A39F74100E5300B /* ArchiPadTestUITests */,
+				D9390E972A39F74000E5300B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9390E972A39F74000E5300B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9390E962A39F74000E5300B /* ArchiPadTest.app */,
+				D9390EAC2A39F74000E5300B /* ArchiPadTestTests.xctest */,
+				D9390EB62A39F74100E5300B /* ArchiPadTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9390E982A39F74000E5300B /* ArchiPadTest */ = {
+			isa = PBXGroup;
+			children = (
+				D9390E992A39F74000E5300B /* ArchiPadTestApp.swift */,
+				D9390E9B2A39F74000E5300B /* Persistence.swift */,
+				D9390EA02A39F74000E5300B /* ContentView.swift */,
+				D9390EA22A39F74000E5300B /* Assets.xcassets */,
+				D9390EA42A39F74000E5300B /* ArchiPadTest.entitlements */,
+				D9390E9D2A39F74000E5300B /* ArchiPadTest.xcdatamodeld */,
+				D9390EA52A39F74000E5300B /* Preview Content */,
+			);
+			path = ArchiPadTest;
+			sourceTree = "<group>";
+		};
+		D9390EA52A39F74000E5300B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9390EA62A39F74000E5300B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9390EAF2A39F74100E5300B /* ArchiPadTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9390EB02A39F74100E5300B /* ArchiPadTestTests.swift */,
+			);
+			path = ArchiPadTestTests;
+			sourceTree = "<group>";
+		};
+		D9390EB92A39F74100E5300B /* ArchiPadTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9390EBA2A39F74100E5300B /* ArchiPadTestUITests.swift */,
+				D9390EBC2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift */,
+			);
+			path = ArchiPadTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9390E952A39F74000E5300B /* ArchiPadTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9390EC02A39F74100E5300B /* Build configuration list for PBXNativeTarget "ArchiPadTest" */;
+			buildPhases = (
+				D9390E922A39F74000E5300B /* Sources */,
+				D9390E932A39F74000E5300B /* Frameworks */,
+				D9390E942A39F74000E5300B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiPadTest;
+			productName = ArchiPadTest;
+			productReference = D9390E962A39F74000E5300B /* ArchiPadTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9390EAB2A39F74000E5300B /* ArchiPadTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9390EC32A39F74100E5300B /* Build configuration list for PBXNativeTarget "ArchiPadTestTests" */;
+			buildPhases = (
+				D9390EA82A39F74000E5300B /* Sources */,
+				D9390EA92A39F74000E5300B /* Frameworks */,
+				D9390EAA2A39F74000E5300B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9390EAE2A39F74000E5300B /* PBXTargetDependency */,
+			);
+			name = ArchiPadTestTests;
+			productName = ArchiPadTestTests;
+			productReference = D9390EAC2A39F74000E5300B /* ArchiPadTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9390EB52A39F74100E5300B /* ArchiPadTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9390EC62A39F74100E5300B /* Build configuration list for PBXNativeTarget "ArchiPadTestUITests" */;
+			buildPhases = (
+				D9390EB22A39F74100E5300B /* Sources */,
+				D9390EB32A39F74100E5300B /* Frameworks */,
+				D9390EB42A39F74100E5300B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9390EB82A39F74100E5300B /* PBXTargetDependency */,
+			);
+			name = ArchiPadTestUITests;
+			productName = ArchiPadTestUITests;
+			productReference = D9390EB62A39F74100E5300B /* ArchiPadTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9390E8E2A39F74000E5300B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D9390E952A39F74000E5300B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D9390EAB2A39F74000E5300B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D9390E952A39F74000E5300B;
+					};
+					D9390EB52A39F74100E5300B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D9390E952A39F74000E5300B;
+					};
+				};
+			};
+			buildConfigurationList = D9390E912A39F74000E5300B /* Build configuration list for PBXProject "ArchiPadTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9390E8D2A39F74000E5300B;
+			productRefGroup = D9390E972A39F74000E5300B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9390E952A39F74000E5300B /* ArchiPadTest */,
+				D9390EAB2A39F74000E5300B /* ArchiPadTestTests */,
+				D9390EB52A39F74100E5300B /* ArchiPadTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9390E942A39F74000E5300B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9390EA72A39F74000E5300B /* Preview Assets.xcassets in Resources */,
+				D9390EA32A39F74000E5300B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9390EAA2A39F74000E5300B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9390EB42A39F74100E5300B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9390E922A39F74000E5300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9390E9A2A39F74000E5300B /* ArchiPadTestApp.swift in Sources */,
+				D9390E9C2A39F74000E5300B /* Persistence.swift in Sources */,
+				D9390EA12A39F74000E5300B /* ContentView.swift in Sources */,
+				D9390E9F2A39F74000E5300B /* ArchiPadTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9390EA82A39F74000E5300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9390EB12A39F74100E5300B /* ArchiPadTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9390EB22A39F74100E5300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9390EBD2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift in Sources */,
+				D9390EBB2A39F74100E5300B /* ArchiPadTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9390EAE2A39F74000E5300B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9390E952A39F74000E5300B /* ArchiPadTest */;
+			targetProxy = D9390EAD2A39F74000E5300B /* PBXContainerItemProxy */;
+		};
+		D9390EB82A39F74100E5300B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9390E952A39F74000E5300B /* ArchiPadTest */;
+			targetProxy = D9390EB72A39F74100E5300B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9390EBE2A39F74100E5300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9390EBF2A39F74100E5300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D9390EC12A39F74100E5300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArchiPadTest/ArchiPadTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArchiPadTest/Preview Content\"";
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.archipad.ArchiPadTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9390EC22A39F74100E5300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ArchiPadTest/ArchiPadTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArchiPadTest/Preview Content\"";
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.archipad.ArchiPadTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9390EC42A39F74100E5300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.archipad.ArchiPadTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchiPadTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArchiPadTest";
+			};
+			name = Debug;
+		};
+		D9390EC52A39F74100E5300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.archipad.ArchiPadTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchiPadTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArchiPadTest";
+			};
+			name = Release;
+		};
+		D9390EC72A39F74100E5300B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.archipad.ArchiPadTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArchiPadTest;
+			};
+			name = Debug;
+		};
+		D9390EC82A39F74100E5300B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.archipad.ArchiPadTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArchiPadTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9390E912A39F74000E5300B /* Build configuration list for PBXProject "ArchiPadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9390EBE2A39F74100E5300B /* Debug */,
+				D9390EBF2A39F74100E5300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9390EC02A39F74100E5300B /* Build configuration list for PBXNativeTarget "ArchiPadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9390EC12A39F74100E5300B /* Debug */,
+				D9390EC22A39F74100E5300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9390EC32A39F74100E5300B /* Build configuration list for PBXNativeTarget "ArchiPadTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9390EC42A39F74100E5300B /* Debug */,
+				D9390EC52A39F74100E5300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9390EC62A39F74100E5300B /* Build configuration list for PBXNativeTarget "ArchiPadTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9390EC72A39F74100E5300B /* Debug */,
+				D9390EC82A39F74100E5300B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9390E9D2A39F74000E5300B /* ArchiPadTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9390E9E2A39F74000E5300B /* ArchiPadTest.xcdatamodel */,
+			);
+			currentVersion = D9390E9E2A39F74000E5300B /* ArchiPadTest.xcdatamodel */;
+			path = ArchiPadTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9390E8E2A39F74000E5300B /* Project object */;
+}
