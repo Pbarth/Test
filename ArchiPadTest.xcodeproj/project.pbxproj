@@ -16,6 +16,21 @@
 		D9390EB12A39F74100E5300B /* ArchiPadTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EB02A39F74100E5300B /* ArchiPadTestTests.swift */; };
 		D9390EBB2A39F74100E5300B /* ArchiPadTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EBA2A39F74100E5300B /* ArchiPadTestUITests.swift */; };
 		D9390EBD2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EBC2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift */; };
+		D9390ED02A3F3EE900E5300B /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = D9390ECF2A3F3EE900E5300B /* Domain */; };
+		D9390ED22A3F4C7D00E5300B /* ProjectGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390ED12A3F4C7D00E5300B /* ProjectGridView.swift */; };
+		D9390ED62A3F4C9D00E5300B /* ProjectGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390ED52A3F4C9D00E5300B /* ProjectGridViewModel.swift */; };
+		D9390ED82A3F4CF400E5300B /* ProjectInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390ED72A3F4CF400E5300B /* ProjectInteractor.swift */; };
+		D9390EDB2A3F4DD200E5300B /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = D9390EDA2A3F4DD200E5300B /* Factory */; };
+		D9390EDE2A3F4E3300E5300B /* Container.Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EDD2A3F4E3300E5300B /* Container.Project.swift */; };
+		D9390EE02A3F4F3000E5300B /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = D9390EDF2A3F4F3000E5300B /* Data */; };
+		D9390EE22A3FBDF000E5300B /* AppProject.Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EE12A3FBDF000E5300B /* AppProject.Sample.swift */; };
+		D9390EE42A3FC05200E5300B /* ProjectGridView.GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EE32A3FC05200E5300B /* ProjectGridView.GridItemView.swift */; };
+		D9390EE62A3FD04700E5300B /* Remote in Frameworks */ = {isa = PBXBuildFile; productRef = D9390EE52A3FD04700E5300B /* Remote */; };
+		D9390EE82A40239800E5300B /* remoteProjects.json in Resources */ = {isa = PBXBuildFile; fileRef = D9390EE72A40239800E5300B /* remoteProjects.json */; };
+		D9390EEA2A4024CB00E5300B /* ProjectGridView.GridItemView.SyncStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EE92A4024CB00E5300B /* ProjectGridView.GridItemView.SyncStatusView.swift */; };
+		D9390EED2A4025AE00E5300B /* DateFormatter.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EEC2A4025AE00E5300B /* DateFormatter.Extension.swift */; };
+		D9390EEF2A4097C300E5300B /* AppProject.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EEE2A4097C300E5300B /* AppProject.Extension.swift */; };
+		D9390EF12A40A21F00E5300B /* ProjectGridView.HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9390EF02A40A21F00E5300B /* ProjectGridView.HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,18 @@
 		D9390EB62A39F74100E5300B /* ArchiPadTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchiPadTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9390EBA2A39F74100E5300B /* ArchiPadTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiPadTestUITests.swift; sourceTree = "<group>"; };
 		D9390EBC2A39F74100E5300B /* ArchiPadTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiPadTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9390ECD2A3F3E4700E5300B /* CleanArchitecture */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CleanArchitecture; sourceTree = "<group>"; };
+		D9390ED12A3F4C7D00E5300B /* ProjectGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGridView.swift; sourceTree = "<group>"; };
+		D9390ED52A3F4C9D00E5300B /* ProjectGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGridViewModel.swift; sourceTree = "<group>"; };
+		D9390ED72A3F4CF400E5300B /* ProjectInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectInteractor.swift; sourceTree = "<group>"; };
+		D9390EDD2A3F4E3300E5300B /* Container.Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.Project.swift; sourceTree = "<group>"; };
+		D9390EE12A3FBDF000E5300B /* AppProject.Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProject.Sample.swift; sourceTree = "<group>"; };
+		D9390EE32A3FC05200E5300B /* ProjectGridView.GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGridView.GridItemView.swift; sourceTree = "<group>"; };
+		D9390EE72A40239800E5300B /* remoteProjects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = remoteProjects.json; sourceTree = "<group>"; };
+		D9390EE92A4024CB00E5300B /* ProjectGridView.GridItemView.SyncStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGridView.GridItemView.SyncStatusView.swift; sourceTree = "<group>"; };
+		D9390EEC2A4025AE00E5300B /* DateFormatter.Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.Extension.swift; sourceTree = "<group>"; };
+		D9390EEE2A4097C300E5300B /* AppProject.Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProject.Extension.swift; sourceTree = "<group>"; };
+		D9390EF02A40A21F00E5300B /* ProjectGridView.HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGridView.HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9390ED02A3F3EE900E5300B /* Domain in Frameworks */,
+				D9390EDB2A3F4DD200E5300B /* Factory in Frameworks */,
+				D9390EE62A3FD04700E5300B /* Remote in Frameworks */,
+				D9390EE02A3F4F3000E5300B /* Data in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +110,12 @@
 		D9390E8D2A39F74000E5300B = {
 			isa = PBXGroup;
 			children = (
+				D9390ECD2A3F3E4700E5300B /* CleanArchitecture */,
 				D9390E982A39F74000E5300B /* ArchiPadTest */,
 				D9390EAF2A39F74100E5300B /* ArchiPadTestTests */,
 				D9390EB92A39F74100E5300B /* ArchiPadTestUITests */,
 				D9390E972A39F74000E5300B /* Products */,
+				D9390ECE2A3F3EE900E5300B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +132,10 @@
 		D9390E982A39F74000E5300B /* ArchiPadTest */ = {
 			isa = PBXGroup;
 			children = (
+				D9390EEB2A40259F00E5300B /* Extensions */,
+				D9390EE72A40239800E5300B /* remoteProjects.json */,
+				D9390EDC2A3F4E1E00E5300B /* DependecyInjectioin */,
+				D9390ED32A3F4C8000E5300B /* ProjectList */,
 				D9390E992A39F74000E5300B /* ArchiPadTestApp.swift */,
 				D9390E9B2A39F74000E5300B /* Persistence.swift */,
 				D9390EA02A39F74000E5300B /* ContentView.swift */,
@@ -114,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D9390EA62A39F74000E5300B /* Preview Assets.xcassets */,
+				D9390EE12A3FBDF000E5300B /* AppProject.Sample.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -135,6 +173,51 @@
 			path = ArchiPadTestUITests;
 			sourceTree = "<group>";
 		};
+		D9390ECE2A3F3EE900E5300B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9390ED32A3F4C8000E5300B /* ProjectList */ = {
+			isa = PBXGroup;
+			children = (
+				D9390ED42A3F4C8800E5300B /* View */,
+				D9390ED52A3F4C9D00E5300B /* ProjectGridViewModel.swift */,
+				D9390ED72A3F4CF400E5300B /* ProjectInteractor.swift */,
+			);
+			path = ProjectList;
+			sourceTree = "<group>";
+		};
+		D9390ED42A3F4C8800E5300B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9390ED12A3F4C7D00E5300B /* ProjectGridView.swift */,
+				D9390EF02A40A21F00E5300B /* ProjectGridView.HeaderView.swift */,
+				D9390EE32A3FC05200E5300B /* ProjectGridView.GridItemView.swift */,
+				D9390EE92A4024CB00E5300B /* ProjectGridView.GridItemView.SyncStatusView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9390EDC2A3F4E1E00E5300B /* DependecyInjectioin */ = {
+			isa = PBXGroup;
+			children = (
+				D9390EDD2A3F4E3300E5300B /* Container.Project.swift */,
+			);
+			path = DependecyInjectioin;
+			sourceTree = "<group>";
+		};
+		D9390EEB2A40259F00E5300B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9390EEC2A4025AE00E5300B /* DateFormatter.Extension.swift */,
+				D9390EEE2A4097C300E5300B /* AppProject.Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +234,12 @@
 			dependencies = (
 			);
 			name = ArchiPadTest;
+			packageProductDependencies = (
+				D9390ECF2A3F3EE900E5300B /* Domain */,
+				D9390EDA2A3F4DD200E5300B /* Factory */,
+				D9390EDF2A3F4F3000E5300B /* Data */,
+				D9390EE52A3FD04700E5300B /* Remote */,
+			);
 			productName = ArchiPadTest;
 			productReference = D9390E962A39F74000E5300B /* ArchiPadTest.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +312,9 @@
 				Base,
 			);
 			mainGroup = D9390E8D2A39F74000E5300B;
+			packageReferences = (
+				D9390ED92A3F4DD200E5300B /* XCRemoteSwiftPackageReference "Factory" */,
+			);
 			productRefGroup = D9390E972A39F74000E5300B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9390EA72A39F74000E5300B /* Preview Assets.xcassets in Resources */,
+				D9390EE82A40239800E5300B /* remoteProjects.json in Resources */,
 				D9390EA32A39F74000E5300B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +359,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9390E9A2A39F74000E5300B /* ArchiPadTestApp.swift in Sources */,
+				D9390EE42A3FC05200E5300B /* ProjectGridView.GridItemView.swift in Sources */,
+				D9390ED22A3F4C7D00E5300B /* ProjectGridView.swift in Sources */,
+				D9390EDE2A3F4E3300E5300B /* Container.Project.swift in Sources */,
+				D9390EF12A40A21F00E5300B /* ProjectGridView.HeaderView.swift in Sources */,
+				D9390EE22A3FBDF000E5300B /* AppProject.Sample.swift in Sources */,
 				D9390E9C2A39F74000E5300B /* Persistence.swift in Sources */,
+				D9390ED82A3F4CF400E5300B /* ProjectInteractor.swift in Sources */,
 				D9390EA12A39F74000E5300B /* ContentView.swift in Sources */,
+				D9390EEF2A4097C300E5300B /* AppProject.Extension.swift in Sources */,
+				D9390ED62A3F4C9D00E5300B /* ProjectGridViewModel.swift in Sources */,
+				D9390EED2A4025AE00E5300B /* DateFormatter.Extension.swift in Sources */,
+				D9390EEA2A4024CB00E5300B /* ProjectGridView.GridItemView.SyncStatusView.swift in Sources */,
 				D9390E9F2A39F74000E5300B /* ArchiPadTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +549,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,6 +589,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -620,6 +727,37 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9390ED92A3F4DD200E5300B /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9390ECF2A3F3EE900E5300B /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		D9390EDA2A3F4DD200E5300B /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9390ED92A3F4DD200E5300B /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+		D9390EDF2A3F4F3000E5300B /* Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Data;
+		};
+		D9390EE52A3FD04700E5300B /* Remote */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Remote;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D9390E9D2A39F74000E5300B /* ArchiPadTest.xcdatamodeld */ = {

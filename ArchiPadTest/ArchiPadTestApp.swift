@@ -13,7 +13,7 @@ struct ArchiPadTestApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProjectGridView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

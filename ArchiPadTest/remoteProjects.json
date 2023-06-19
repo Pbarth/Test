@@ -1,0 +1,828 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "id": "1015546224741324431",
+      "name": "Nouveau projet 3",
+      "lastModificationDate": 1575881017,
+      "creationDate": 1575881008,
+      "localCopy": true,
+      "lastPatchId": "0000016ee9d405e3.05d4dfe4",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "1308387818645118428",
+      "name": "IVRY - BYI - RTA 3*",
+      "lastModificationDate": 1592573323,
+      "creationDate": 1522079106,
+      "localCopy": true,
+      "lastPatchId": "00000172ccc43ba2.7205391c",
+      "creatorId": 8960,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "1372655622484372002",
+      "name": "THIAIS DDS - Bâtiment B",
+      "lastModificationDate": 1605721372,
+      "creationDate": 1592805793,
+      "localCopy": true,
+      "lastPatchId": "00000175dc73ab76.15f26a0e",
+      "creatorId": 30821,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl":null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "1688541335083669482",
+      "name": "PERSO",
+      "lastModificationDate": 1596110321,
+      "creationDate": 1596110266,
+      "localCopy": false,
+      "lastPatchId": "000001739f96b237.9877e9b4",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "181398917742695517",
+      "name": "BYI - PDT - RAMURES - Ancien",
+      "lastModificationDate": 1583481155,
+      "creationDate": 1529909527,
+      "localCopy": true,
+      "lastPatchId": "00000170aed4ef28.7668d729",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": "181398917742695517",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "1902165471738891515",
+      "name": "COGEDIM - OPR BATIMENT B - Le Domaine des Sens",
+      "lastModificationDate": 1605711921,
+      "creationDate": 1570009506,
+      "localCopy": false,
+      "lastPatchId": "00000175dbe34397.18f83ed9",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2000497168713147638",
+      "name": "Nouveau projet 3",
+      "lastModificationDate": 1576444762,
+      "creationDate": 1576444737,
+      "localCopy": false,
+      "lastPatchId": "0000016f0b6e16ed.032fc3ec",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2014177322970127197",
+      "name": "NESSUS - AUBERVILLIERS",
+      "lastModificationDate": 1605783476,
+      "creationDate": 1564392993,
+      "localCopy": true,
+      "lastPatchId": "00000175e026c8d3.05cb6a5f",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2106874479450667663",
+      "name": "BURES Grand Cœur - ERILIA COGEDIM",
+      "lastModificationDate": 1576663996,
+      "creationDate": 1494310319,
+      "localCopy": true,
+      "lastPatchId": "0000016f187e9553.19e0aefb",
+      "creatorId": 5770,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": "2106874479450667663",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2158593203583562424",
+      "name": "OGIC - CITYZEN",
+      "lastModificationDate": 1604917969,
+      "creationDate": 1544686304,
+      "localCopy": true,
+      "lastPatchId": "00000175ac908529.678967f7",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2366634690872670323",
+      "name": "DOMAINE DES SENS - THIAIS",
+      "lastModificationDate": 1591201789,
+      "creationDate": 1574261094,
+      "localCopy": true,
+      "lastPatchId": "000001727b03a2f9.0b145ba6",
+      "creatorId": 10756,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        },
+        {
+          "bundleId": "cogedim"
+        },
+        {
+          "bundleId": "cogedim_report_template"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2594295223275655651",
+      "name": "MAMA SHELTER PARIS WEST",
+      "lastModificationDate": 1574837369,
+      "creationDate": 1573112945,
+      "localCopy": true,
+      "lastPatchId": "0000016eab9e89b1.793aaf3a",
+      "creatorId": 8956,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2605759186907995419",
+      "name": "BURES Grand Cœur -  ACCESSION COGEDIM",
+      "lastModificationDate": 1571238705,
+      "creationDate": 1497502094,
+      "localCopy": true,
+      "lastPatchId": "0000016dd51eec49.1310d8d5",
+      "creatorId": 5770,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl":"2605759186907995419",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2983383613596507340",
+      "name": "COGEDIM - Le Domaine des Sens",
+      "lastModificationDate": 1562258078,
+      "creationDate": 1520938422,
+      "localCopy": true,
+      "lastPatchId": "0000016bbdd645e2.113a7778",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": "2983383613596507340",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "3011668342657581205",
+      "name": "ZAC DU MOULON A1 - Gif sur Yvette",
+      "lastModificationDate": 1605787360,
+      "creationDate": 1582296515,
+      "localCopy": true,
+      "lastPatchId": "00000175e061d781.10507337",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "3133061992590578143",
+      "name": "Grand Cœur - OPR",
+      "lastModificationDate": 1596808125,
+      "creationDate": 1508936955,
+      "localCopy": true,
+      "lastPatchId": "00000173c928cb5b.5f612e2e",
+      "creatorId": 736,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "322280893250493237",
+      "name": "COGEDIM - Le Domaine des Sens - OPL BATIMENT E",
+      "lastModificationDate": 1566296465,
+      "creationDate": 1563552966,
+      "localCopy": true,
+      "lastPatchId": "0000016cae8b3b7f.761747d8",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": "322280893250493237",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "3245164104215647440",
+      "name": "COGEDIM - Coeur de Marne",
+      "lastModificationDate": 1553708789,
+      "creationDate": 1492105188,
+      "localCopy": true,
+      "lastPatchId": "00000169c04040a1.09cc842c",
+      "creatorId": 8960,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl":"3245164104215647440",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "3379679110373907228",
+      "name": "BYI - BOBIGNY - ALTO",
+      "lastModificationDate": 1606395465,
+      "creationDate": 1554207949,
+      "localCopy": true,
+      "lastPatchId": "0000017604a01095.5882238b",
+      "creatorId": 8960,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": "3379679110373907228",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "3824181131577046338",
+      "name": "THIAIS DOMAINE DES SENS PP21361 LLI",
+      "lastModificationDate": 1576223428,
+      "creationDate": 1543654743,
+      "localCopy": true,
+      "lastPatchId": "0000016efe3cccb7.e808f338",
+      "creatorId": 17532,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "4008538629238731167",
+      "name": "BYI - PDT - Miroir d’Ô",
+      "lastModificationDate": 1594019903,
+      "creationDate": 1572861831,
+      "localCopy": false,
+      "lastPatchId": "0000017322fd6dfe.32092174",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": "4008538629238731167",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "4192055233386751050",
+      "name": "THIAIS DOMAINE DES SENS PP21361 VISITE CLOISON ",
+      "lastModificationDate": 1562771953,
+      "creationDate": 1546085013,
+      "localCopy": false,
+      "lastPatchId": "0000016bdc778f98.13fc2936",
+      "creatorId": 17532,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "4539064284668859704",
+      "name": "BYI LUL - Citad'in - OPR",
+      "lastModificationDate": 1581689228,
+      "creationDate": 1565269004,
+      "localCopy": true,
+      "lastPatchId": "0000017044061963.4a8cd7c3",
+      "creatorId": 17668,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": "4539064284668859704",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "472156132028692275",
+      "name": "THIAIS DOMAINE DES SENS  LLI",
+      "lastModificationDate": 1603908753,
+      "creationDate": 1563624254,
+      "localCopy": true,
+      "lastPatchId": "0000017570694324.408004a3",
+      "creatorId": 17532,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "473474407908471719",
+      "name": "THIAIS DOMAINE DES SENS PP21361 EFIDIS",
+      "lastModificationDate": 1603100535,
+      "creationDate": 1551523344,
+      "localCopy": true,
+      "lastPatchId": "00000175403ccf39.65cba7ba",
+      "creatorId": 17532,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "4788773117321828956",
+      "name": "Nouveau projet 2",
+      "lastModificationDate": 1574203255,
+      "creationDate": 1574203247,
+      "localCopy": true,
+      "lastPatchId": "0000016e85d368bd.c8292db7",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "5353525860691125123",
+      "name": "Projet Démo - Immeuble Belleville",
+      "lastModificationDate": 1571775431,
+      "creationDate": 1571775379,
+      "localCopy": true,
+      "lastPatchId": "0000016df51d6f72.6f978786",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "564588209993790009",
+      "name": "GRAND COEUR",
+      "lastModificationDate": 1596805909,
+      "creationDate": 1486311936,
+      "localCopy": true,
+      "lastPatchId": "00000173c90b396d.39049f5e",
+      "creatorId": 8960,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl":null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "5655930817428147932",
+      "name": "Nouveau projet",
+      "lastModificationDate": 1528878130,
+      "creationDate": 1528878124,
+      "localCopy": true,
+      "lastPatchId": "00000163f83ce502.afa45874",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "6525827781941627226",
+      "name": "COGEDIM - THIAIS Domaine des Sens - Livraison Parties Communes Bâtiments C, D & F",
+      "lastModificationDate": 1604917443,
+      "creationDate": 1578948612,
+      "localCopy": true,
+      "lastPatchId": "00000175ac88afc0.35558337",
+      "creatorId": 30821,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "7139475773817198906",
+      "name": "THIAIS LE DOMAINE DES SENS",
+      "lastModificationDate": 1605711844,
+      "creationDate": 1566394539,
+      "localCopy": true,
+      "lastPatchId": "00000175dbe24057.5bc1e187",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "7805736992951413478",
+      "name": "COGEDIM - THIAIS Domaine des Sens - Espaces verts + Sous-sol + Façades C & D + Façades F",
+      "lastModificationDate": 1605865844,
+      "creationDate": 1578518298,
+      "localCopy": true,
+      "lastPatchId": "00000175e510256f.42da7021",
+      "creatorId": 30821,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "781911129560051208",
+      "name": "THIAIS - LE DOMAINE DES SENS - OPR EXTÉRIEURS",
+      "lastModificationDate": 1582100699,
+      "creationDate": 1574760058,
+      "localCopy": true,
+      "lastPatchId": "000001705c8b6bda.24e2f496",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "8089767967279228415",
+      "name": "COGEDIM - OPR BATIMENT D - DOMAINE DES SENS",
+      "lastModificationDate": 1605711961,
+      "creationDate": 1562249230,
+      "localCopy": true,
+      "lastPatchId": "00000175dbe3e57e.3196c523",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "8184390524189765809",
+      "name": "BYI LUL - Citad'in - Plan de vente",
+      "lastModificationDate": 1601559313,
+      "creationDate": 1550571001,
+      "localCopy": true,
+      "lastPatchId": "00000174e459c615.71a1d418",
+      "creatorId": 17668,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": "8184390524189765809",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "8450953909419169753",
+      "name": "BYI PDT 2E - Pointe de Trivaux - Ramures",
+      "lastModificationDate": 1605187116,
+      "creationDate": 1576246025,
+      "localCopy": true,
+      "lastPatchId": "00000175bc9781ae.08d171cd",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": "8450953909419169753",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "8552608456955168301",
+      "name": "CBRE - GRT GAZ - OPR",
+      "lastModificationDate": 1536912343,
+      "creationDate": 1529901460,
+      "localCopy": true,
+      "lastPatchId": "00000165d71a3658.5569f38a",
+      "creatorId": 8956,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": "8552608456955168301",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        },
+        {
+          "bundleId": "cbrefrance"
+        },
+        {
+          "bundleId": "cbrefrance_report_template"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "8583499185235234808",
+      "name": "THIAIS DOMAINE DES SENS PP21361 BATIMENT D   ACCESSIONS ",
+      "lastModificationDate": 1562130511,
+      "creationDate": 1532678283,
+      "localCopy": true,
+      "lastPatchId": "0000016bb63be378.2cef926a",
+      "creatorId": 17532,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "9038955673810327302",
+      "name": "BYI - BOBIGNY - SOPRANO",
+      "lastModificationDate": 1596707012,
+      "creationDate": 1532019637,
+      "localCopy": true,
+      "lastPatchId": "00000173c32619f4.6fa2d5e6",
+      "creatorId": 8960,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": "9038955673810327302",
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "9044140042265619153",
+      "name": "Grand Cœur - Syndic",
+      "lastModificationDate": 1571296997,
+      "creationDate": 1518378088,
+      "localCopy": true,
+      "lastPatchId": "0000016dd89956fa.0b514b01",
+      "creatorId": 5770,
+      "owned": false,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "archipad_collaborator"
+        },
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "946808218064408495",
+      "name": "Nouveau projet 1",
+      "lastModificationDate": 1570628703,
+      "creationDate": 1570628694,
+      "localCopy": true,
+      "lastPatchId": "0000016db0c41231.4820583e",
+      "creatorId": 7808,
+      "owned": true,
+      "path": "TODO",
+      "photoUrl": null,
+      "bugWorkflow": false,
+      "dependencies": [
+        {
+          "bundleId": "workflow"
+        }
+      ],
+      "available": true
+    }
+  ],
+  "id": null
+}
+
